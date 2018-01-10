@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.abisayuti.myapplication.PersegiActivity">
-
+    tools:context="com.abisayuti.myapplication.SegitigaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,24 +12,24 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:gravity="center"
-            android:text="Hitung Luas dan Keliling Persegi Panjang"
+            android:text="Hitunglah Luas dan Keliling Segitiga"
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/etPanjang"
+            android:id="@+id/etPanjangSegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:hint="Masukkan Panjang" />
 
+
         <EditText
-            android:id="@+id/etLebar"
+            android:id="@+id/etLebarSegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -38,19 +37,47 @@
             android:layout_marginRight="5dp"
             android:hint="Masukkan Lebar" />
 
+        <EditText
+            android:id="@+id/etpanjangsisia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="Masukkan Panjang sisi a" />
+
+        <EditText
+            android:id="@+id/etpanjangsisib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="Masukkan Panjang sisi b" />
+
+        <EditText
+            android:id="@+id/etpanjangsisic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="Masukkan Panjang sisi c" />
+
         <Button
-            android:id="@+id/btnHitungPersegi"
+            android:id="@+id/btnHitungSegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="HITUNG" />
 
         <TextView
-            android:id="@+id/txthasil"
+            android:id="@+id/txthasilsegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Hasil" />
 
     </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

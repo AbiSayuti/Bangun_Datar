@@ -31,18 +31,18 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="140dp"
             android:background="#b41be7"
-            android:text="Persegi"
+            android:text="Persegi Panjang"
             android:textColor="@android:color/background_light" />
 
         <Button
-            android:id="@+id/btnPersegiPanjang"
+            android:id="@+id/btnSegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#b41be7"
-            android:text="Persegi PAnjang"
+            android:text="Segitiga"
             android:textColor="@android:color/background_light" />
 
         <Button
@@ -54,6 +54,32 @@
             android:background="#b41be7"
             android:text="Lingkaran"
             android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnJajargenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#b41be7"
+            android:text="Jajargenjang"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnPersegiPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#b41be7"
+            android:text="Persegi"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light" />
+
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

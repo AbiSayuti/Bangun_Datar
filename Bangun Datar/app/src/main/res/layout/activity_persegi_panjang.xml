@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.abisayuti.myapplication.PersegiActivity">
+    tools:context="com.abisayuti.myapplication.PersegiPanjangActivity">
 
 
     <LinearLayout
@@ -13,16 +13,16 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:gravity="center"
-            android:text="Hitung Luas dan Keliling Persegi Panjang"
+            android:text="Hitung Luas dan Keliling Persegi"
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/etPanjang"
+            android:id="@+id/etPanjang5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -30,7 +30,7 @@
             android:hint="Masukkan Panjang" />
 
         <EditText
-            android:id="@+id/etLebar"
+            android:id="@+id/etLebar5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -39,18 +39,19 @@
             android:hint="Masukkan Lebar" />
 
         <Button
-            android:id="@+id/btnHitungPersegi"
+            android:id="@+id/btnHitungPersegi5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="HITUNG" />
 
         <TextView
-            android:id="@+id/txthasil"
+            android:id="@+id/txthasil5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Hasil" />
 
     </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
